@@ -6,11 +6,13 @@ The popsift.py contains code for using OpenCV's inbuilt SIFT algorithm.
 writekp.py contains code to store keypoints of each of the images in the database to a file.
 To run the application, perform the following -
 
-1. Make a folder monumentsdb which has images of monuments.
+1. Make a folder monumentsdb which has images of monuments.Use name of the monument as name of the image.
 
-2. Run writekp.py - python writekp.py .This detects keypoints of each of the images in monumentsdb and stores them to a file called monuments.pkl.These keypoints are later read from the file during program execution.Instead of finding keypoints during each execution,we've stored them to a file to save execution time.
+2. Run writekp.py - python writekp.py .This detects keypoints of each of the images in monumentsdb and stores them to a file called monuments.pkl.It stores the name of the file and its corresponding keypoints.These keypoints are later read from the file during program execution.Instead of finding keypoints during each execution,we've stored them to a file to save execution time.
 
 3. Run main code - python popgui.py. This will ask you to choose an image for annotation.It will display the result after a few seconds.
+
+This can be extended to other objects like images of books etc. as well.
 
 
 
