@@ -4,7 +4,7 @@ This is an image annotation application developed with OpenCV's python interface
 The popgui.py file contains the main code.
 The popsift.py contains code for using OpenCV's inbuilt SIFT algorithm.
 writekp.py contains code to store keypoints of each of the images in the database to a file.
-To run the application, perform the following -
+The instructions below assume that you have OpenCV installed.For OpenCV installation,visit http://goo.gl/OuJ1SW.To run the application, perform the following -
 
 1. Make a folder monumentsdb which has images of monuments.Use name of the monument as name of the image.
 
