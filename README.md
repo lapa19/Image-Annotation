@@ -13,6 +13,7 @@ The instructions below assume that you have OpenCV installed.For OpenCV installa
 3. Run main code - python popgui.py. This will ask you to choose an image for annotation.It will display the result after a few seconds.
 
 This can be extended to other objects like images of books etc. as well.
+You can also make it a standalone executable with pyinstaller. Visit https://goo.gl/7b2hBA for more details.
 
 
 
